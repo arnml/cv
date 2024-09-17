@@ -4,9 +4,14 @@ export default function Component() {
   return (
     <div className="min-h-screen bg-gray-100 py-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-4xl mx-auto bg-white shadow-lg rounded-lg overflow-hidden">
-        <header className="bg-primary text-primary-foreground p-6">
-          <h1 className="text-3xl font-bold">Arnold Alvaro Moya Lavado</h1>
-          <p className="text-xl">Software Developer</p>
+        <header className="bg-black text-white p-6 flex">
+          <div className="w-1/5">
+            <img src="./img/aml.jpeg" alt="Arnold Alvaro Moya Lavado" style={{ borderRadius: '50%', width: '8rem', filter: 'grayscale(1)' }} />
+          </div>
+          <div className="w-4/5 flex flex-col justify-center">
+            <h1 className="text-3xl font-bold">Arnold Alvaro Moya Lavado</h1>
+            <p className="text-xl">Software Developer</p>
+          </div>
         </header>
 
         <main className="p-6">
