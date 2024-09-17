@@ -6,7 +6,9 @@ export default function Component() {
       <div className="max-w-4xl mx-auto bg-white shadow-lg rounded-lg overflow-hidden">
         <header className="bg-black text-white p-6 flex">
           <div className="w-1/5">
-            <img src="./img/aml.jpeg" alt="Arnold Alvaro Moya Lavado" style={{ borderRadius: '50%', width: '8rem', filter: 'grayscale(1)' }} />
+            <img src={"https://media.licdn.com/dms/image/v2/C4E03AQHqlI60Xu9zdg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1621634336133?e=1732147200&v=beta&t=N-PJy6jZbvurdgCa1uUg7mWtlnDZbFbDQCPRzcV0joc"} 
+              alt="Arnold Alvaro Moya Lavado" 
+              style={{ borderRadius: '50%', width: '8rem', filter: 'grayscale(1)' }} />
           </div>
           <div className="w-4/5 flex flex-col justify-center">
             <h1 className="text-3xl font-bold">Arnold Alvaro Moya Lavado</h1>
