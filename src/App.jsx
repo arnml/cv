@@ -4,17 +4,21 @@ export default function Component() {
   return (
     <div className="min-h-screen bg-gray-100 py-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-4xl mx-auto bg-white shadow-lg rounded-lg overflow-hidden">
-        <header className="bg-black text-white p-6 flex">
-          <div className="w-1/5">
-            <img src={"https://media.licdn.com/dms/image/v2/C4E03AQHqlI60Xu9zdg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1621634336133?e=1732147200&v=beta&t=N-PJy6jZbvurdgCa1uUg7mWtlnDZbFbDQCPRzcV0joc"} 
-              alt="Arnold Alvaro Moya Lavado" 
-              style={{ borderRadius: '50%', width: '8rem', filter: 'grayscale(1)' }} />
-          </div>
-          <div className="w-4/5 flex flex-col justify-center">
-            <h1 className="text-3xl font-bold">Arnold Alvaro Moya Lavado</h1>
-            <p className="text-xl">Software Developer</p>
-          </div>
-        </header>
+      <header className="bg-black text-white p-6 flex flex-col md:flex-row">
+        <div className="w-full md:w-1/5 mb-4 md:mb-0">
+          <img
+            src="https://media.licdn.com/dms/image/v2/C4E03AQHqlI60Xu9zdg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1621634336133?e=1732147200&v=beta&t=N-PJy6jZbvurdgCa1uUg7mWtlnDZbFbDQCPRzcV0joc"
+            alt="Arnold Alvaro Moya Lavado"
+            className="w-full md:w-32 h-auto mx-auto"
+            style={{ borderRadius: '50%', filter: 'grayscale(1)' }}
+          />
+        </div>
+        <div className="w-full md:w-4/5 flex flex-col justify-center text-center md:text-left">
+          <h1 className="text-3xl font-bold">Arnold Alvaro Moya Lavado</h1>
+          <p className="text-xl">Software Developer</p>
+        </div>
+      </header>
+
 
         <main className="p-6">
           <section className="mb-6">
