@@ -7,10 +7,10 @@ export default function Component() {
       <header className="bg-black text-white p-6 flex flex-col md:flex-row">
         <div className="w-full md:w-1/5 mb-4 md:mb-0">
           <img
-            src="https://media.licdn.com/dms/image/v2/C4E03AQHqlI60Xu9zdg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1621634336133?e=1732147200&v=beta&t=N-PJy6jZbvurdgCa1uUg7mWtlnDZbFbDQCPRzcV0joc"
+            src="aml.png"
             alt="Arnold Alvaro Moya Lavado"
             className="w-full md:w-32 h-auto mx-auto"
-            style={{ borderRadius: '50%', filter: 'grayscale(1)' }}
+            style={{ borderRadius: '50%' }}
           />
         </div>
         <div className="w-full md:w-4/5 flex flex-col justify-center text-center md:text-left">
