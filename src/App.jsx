@@ -7,7 +7,7 @@ export default function Component() {
       <header className="bg-black text-white p-6 flex flex-col md:flex-row">
         <div className="w-full md:w-1/5 mb-4 md:mb-0">
           <img
-            src="./aml.png"
+            src="../aml.png"
             alt="Arnold Alvaro Moya Lavado"
             className="w-full md:w-32 h-auto mx-auto"
             style={{ borderRadius: '50%' }}
