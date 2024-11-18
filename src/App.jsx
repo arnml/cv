@@ -39,7 +39,7 @@ export default function Component() {
           <section className="mb-6">
             <h2 className="text-2xl font-semibold mb-2 flex items-center"><Code className="mr-2" />Skills</h2>
             <ul className="list-disc list-inside space-y-2">
-              <li><span className="font-semibold">🧑‍💻 Technologies:</span> Python | C# | C++ | JavaScript | MySQL | PostgreSQL | GitHub Actions for CI/CD | FastAPI | ASP.NET Core Web API | Unit Test | Debugging and Error Handling | Authentication and Authorization | Entity Framework Core | Docker | Bash scripting | CI/CD</li>
+              <li><span className="font-semibold">🧑‍💻 Technologies:</span> Python | C# | C++ | JavaScript | React, Next.js | MySQL, PostgreSQL | GitHub Actions for CI/CD | FastAPI | ASP.NET Core Web API | Unit Test | Debugging and Error Handling | Authentication and Authorization | Entity Framework Core | Docker | Bash scripting | CI/CD</li>
               <li><span className="font-semibold">☁️ Cloud:</span> AWS EC2 | AWS Lambda | AWS S3 | AWS RDS | AWS IoT Core | AWS CodeCommit | AWS SageMaker | Google Compute Engine | Cloud Functions | BigQuery | Terraform</li>
               <li><span className="font-semibold">🤖 AI:</span> Deep Learning | NLP | LLM fine-tuning</li>
               <li><span className="font-semibold">🌐 Languages:</span> 
