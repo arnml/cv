@@ -93,6 +93,11 @@ export default function Component() {
               <p>From Random to Informed Data Selection: A Diversity-Based Approach to Optimize Human Annotation and Few-Shot Learning</p>
               <a href="https://aclanthology.org/2024.propor-1.50.pdf" className="text-blue-600 hover:underline">https://aclanthology.org/2024.propor-1.50.pdf</a>
             </div>
+            <div>
+              <h3 className="text-xl font-medium">🇧🇷 STIL 2024</h3>
+              <p>No Argument Left Behind: Overlapping Chunks for Faster Processing of Arbitrarily Long Legal Texts</p>
+              <a href="https://arxiv.org/abs/2410.19184" className="text-blue-600 hover:underline">https://arxiv.org/abs/2410.19184</a>
+            </div>
           </section>
 
           <section>
