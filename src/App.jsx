@@ -25,8 +25,7 @@ export default function Component() {
           <section className="mb-6">
             <h2 className="text-2xl font-semibold mb-2">Contact Information</h2>
             <div className="flex flex-wrap gap-4">
-              <p className="flex items-center"><Mail className="mr-2" /> dev.arn.ml@gmail.com | amoyal@uni.pe</p>
-              <p className="flex items-center"><Phone className="mr-2" /> (+55) 11 93019 0002</p>
+              <p className="flex items-center"><Mail className="mr-2" /> dev.arn.ml@gmail.com </p>
               <a href="https://www.linkedin.com/in/arnoldmoya" target="_blank" rel="noopener noreferrer" className="flex items-center text-blue-600 hover:underline">
                 <Linkedin className="mr-2" /> LinkedIn Profile
               </a>
@@ -61,7 +60,7 @@ export default function Component() {
                 <li>Developed REST APIs using ASP.NET Core Web API and FastAPI, integrating security measures like JWT authentication, and deployed services on AWS with RDS for database management.</li>
                 <li>Developed management-focused Front-end apps using ASP.NET Core MVC.</li>
                 <li>Implemented performance and maintenance strategies in PostgreSQL and MySQL that resulted in a reduction in database request latency.</li>
-                <li>Achieved reduction in ASP.NET Core MVC projects' latency through caching, bundling, and minifying.</li>
+                <li>Achieved reduction in ASP.NET Core MVC projects latency through caching, bundling, and minifying.</li>
                 <li>Provided pull-request review support: testing, debugging, and performance optimization.</li>
                 <li>Implemented Blazor and SignalR frameworks in concept-proof projects.</li>
               </ul>
@@ -108,7 +107,7 @@ export default function Component() {
               <p>Currently studying</p>
             </div>
             <div>
-              <h3 className="text-xl font-medium">Bachelor's degree in Electronic Engineering</h3>
+              <h3 className="text-xl font-medium">Bachelor degree in Electronic Engineering</h3>
               <p className="text-muted-foreground">Universidad Nacional de Ingeniería, Perú🇵🇪</p>
               <p>2010 - 2015</p>
             </div>
